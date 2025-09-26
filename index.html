@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="container">
+    <p id="points">YOU:</p>
+    <p id="computerScore">Computer:</p>
+    <p id="finalResult"></p>
+    <!-- 1) Result -->
+    <p id="result" class="result">Choose one to play</p>
+
+    <!-- 2) Computer vs User (row) -->
+    <section class="battle">
+      <div class="player">
+        <label class="player-label" for="computer">Computer</label>
+        <img id="computer" src="choose/computer.png" alt="computer" />
+      </div>
+
+      <div class="vs">VS</div>
+
+      <div class="player">
+        <label class="player-label" for="user">You</label>
+        <img id="user" src="choose/user.png" alt="you" />
+      </div>
+    </section>
+
+    <!-- 3) Choices (row) -->
+    <section class="choices">
+      <button id="hagara" class="choice" title="Rock"><img src="choose/hagara.jpeg" alt="rock"></button>
+      <button id="warqa" class="choice" title="Paper"><img src="choose/warqa.jpeg" alt="paper"></button>
+      <button id="makas" class="choice" title="Scissors"><img src="choose/makas.jpeg" alt="scissors"></button>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
