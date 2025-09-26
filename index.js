@@ -109,3 +109,4 @@ function play(x){
 hagara.onclick = () => play(1);
 warqa.onclick  = () => play(2);
 makas.onclick  = () => play(3);
+
