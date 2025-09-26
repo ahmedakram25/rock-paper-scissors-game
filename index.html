@@ -9,24 +9,25 @@
 <body>
 
   <main class="container">
+    <button onclick="newGame()" id="newGame">New game</button>
     <p id="points">YOU:</p>
     <p id="computerScore">Computer:</p>
     <p id="finalResult"></p>
     <!-- 1) Result -->
-    <p id="result" class="result">Choose one to play</p>
+    <p id="result" class="result">4 points = Win</p>
 
     <!-- 2) Computer vs User (row) -->
     <section class="battle">
       <div class="player">
         <label class="player-label" for="computer">Computer</label>
-        <img id="computer" src="choose/computer.png" alt="computer" />
+        <img id="computer" src="choose/robot.jpeg" alt="computer" />
       </div>
 
       <div class="vs">VS</div>
 
       <div class="player">
         <label class="player-label" for="user">You</label>
-        <img id="user" src="choose/user.png" alt="you" />
+        <img id="user" src="choose/you.jpg" alt="you" />
       </div>
     </section>
 
