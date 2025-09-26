@@ -10,6 +10,19 @@ body {
   justify-content: center;
   padding: 24px;
 }
+#points{
+  font-size:1.5rem;
+  color:red;
+}
+#computerScore{
+  font-size:1.5rem;
+  color:red;
+}
+#finalResult{
+  font-size:1.5rem;
+  color:red;
+}
+
 
 /* container */
 .container {
@@ -125,3 +138,4 @@ body {
   .choice img { width: 74px; height: 74px; }
   .choices { gap: 10px; }
 }
+
