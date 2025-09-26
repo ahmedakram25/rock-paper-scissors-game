@@ -11,6 +11,9 @@ let finalResult = document.getElementById("finalResult");
 let score = 0 
 let computerScore = 0;
 
+function newGame(){
+    location.reload();
+}
 
 function play(x){
 
