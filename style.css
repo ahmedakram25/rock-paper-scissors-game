@@ -12,7 +12,7 @@ body {
 }
 #points{
   font-size:1.5rem;
-  color:red;
+  color:blue;
 }
 #computerScore{
   font-size:1.5rem;
@@ -20,7 +20,7 @@ body {
 }
 #finalResult{
   font-size:1.5rem;
-  color:red;
+  color:orange;
 }
 
 
@@ -138,4 +138,5 @@ body {
   .choice img { width: 74px; height: 74px; }
   .choices { gap: 10px; }
 }
+
 
