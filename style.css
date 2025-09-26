@@ -10,6 +10,21 @@ body {
   justify-content: center;
   padding: 24px;
 }
+#newGame{
+  font-size:1.5rem;
+  color:rgb(255, 2, 2);
+  font-weight: bold;
+  background-color: hsl(60, 100%, 50%);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+#newGame:hover{
+  background-color: hsl(60, 100%, 90%);
+}
+#newGame:active{
+  background-color: hsl(60, 100%, 100%);
+}
 #points{
   font-size:1.5rem;
   color:cyan;
@@ -138,6 +153,5 @@ body {
   .choice img { width: 74px; height: 74px; }
   .choices { gap: 10px; }
 }
-
 
 
