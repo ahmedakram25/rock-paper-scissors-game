@@ -30,13 +30,13 @@ function play(x){
             else if(x === 2){
                 computer.src = "choose/hagara.jpeg";
                 user.src = "choose/warqa.jpeg";
-                result.textContent = "Win";
+                result.textContent = "You have Won";
                 score++;
             }
             else if(x === 3){
                 computer.src = "choose/hagara.jpeg";
                 user.src = "choose/makas.jpeg";
-                result.textContent = "Lose!";
+                result.textContent = "Computer wins";
                 computerScore++;
             }
             break;
@@ -44,7 +44,7 @@ function play(x){
             if(x === 1 ){
                 computer.src = "choose/warqa.jpeg";
                 user.src = "choose/hagara.jpeg";
-                result.textContent = "Lose!";
+                result.textContent = "Computer wins";
                 computerScore++;
             }
             else if(x === 2){
@@ -57,7 +57,7 @@ function play(x){
             else if(x === 3){
                 computer.src = "choose/warqa.jpeg";
                 user.src = "choose/makas.jpeg";
-                result.textContent = "Win!";
+                result.textContent = "You have Won";
                 score++;
             }
             break;
@@ -65,13 +65,13 @@ function play(x){
             if(x === 1 ){
                 computer.src = "choose/makas.jpeg";
                 user.src = "choose/hagara.jpeg";
-                result.textContent = "Win!";
+                result.textContent = "You have Won";
                 score++;
             }
             else if(x === 2){
                 computer.src = "choose/makas.jpeg";
                 user.src = "choose/warqa.jpeg";
-                result.textContent = "Lose!";
+                result.textContent = "Computer wins";
                 computerScore++;
             }
             else if(x === 3){
