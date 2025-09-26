@@ -12,18 +12,18 @@ body {
 }
 #newGame{
   font-size:1.5rem;
-  color:rgb(255, 2, 2);
+  color:rgb(0, 0, 0);
   font-weight: bold;
-  background-color: hsl(60, 100%, 50%);
+  background-color: hsl(139, 52%, 38%);
   padding: 10px;
   border-radius: 5px;
   border: none;
 }
 #newGame:hover{
-  background-color: hsl(60, 100%, 90%);
+  background-color: hsl(139, 52%, 50%);
 }
 #newGame:active{
-  background-color: hsl(60, 100%, 100%);
+  background-color: hsl(139, 52%, 70%);
 }
 #points{
   font-size:1.5rem;
